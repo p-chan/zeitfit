@@ -1,5 +1,11 @@
+import GuestComponent from '../components/guest.component'
+
 const Page = () => {
-  return <div>Welcome to Next.js!</div>
+  return (
+    <div>
+      <GuestComponent />
+    </div>
+  )
 }
 
 export default Page
